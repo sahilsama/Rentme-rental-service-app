@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Find Affordable Vehicle near you</h1>
+            <p>Find your perfect vehicles with RENTme, it provides a wide range of vendors near you.</p>
+            <button class="location-btn">LOCATION</button>
+        </header>
+
+        <div class="login-box">
+            <h2>User Login <span class="star-icon">✦</span></h2>
+
+            <div class="tab-buttons">
+                <button class="tab active" id="signup-tab">Sign up</button>
+                <button class="tab" id="register-tab">Register</button>
+            </div>
+
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" placeholder="Your email" required>
+                </div>
+            
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <span class="forgot-password"><a href="#">Forgot password?</a></span>
+                </div>
+            
+                <button type="submit" class="login-btn">Sign in</button>
+            
+                <!-- Separate the "Other sign-in options" text -->
+                <p class="sign-in-options-text">Other sign-in options:</p>
+            
+                <div class="social-login">
+                    <img src="google.jpg" alt="Google"  width="200" height="160" 
+                    border="5" >
+                    <img src="facebook.jpeg" alt="Facebook">
+                    <img src="gmail.webp" alt="Gmail">
+                </div>
+            </form>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
