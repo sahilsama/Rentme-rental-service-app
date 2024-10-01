@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0f0f1b;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(160deg, #2a1f38, #100818); /* Adjusted gradient to include purple tones */
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    color: #a0a0a0;
+    margin-bottom: 20px;
+}
+
+.location-btn {
+    padding: 10px 20px;
+    background-color: #00cc5d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.location-btn:hover {
+    background-color: #00b14f;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    width: 350px;
+    margin: 30px auto;
+}
+
+.login-box h2 {
+    font-size: 24px;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.login-box h2 .star-icon {
+    font-size: 20px;
+    color: #a0a0ff;
+}
+
+.tab-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tab {
+    background-color: #2d2d40;
+    color: #fff;
+    width: 120px;    /* Adjusted width */
+    height: 50px;    /* Adjusted height */
+    border-radius: 15px;  /* Slightly curved corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-size: 14px;
+    text-align: center;
+    position: relative; /* For the shine effect */
+    background: linear-gradient(to bottom, #6b6bff, #2d2d40); /* Glossy gradient */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+}
+
+.tab::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), transparent);
+    border-radius: inherit;
+    opacity: 0.5;
+    pointer-events: none; /* Shine effect */
+}
+
+.tab:hover {
+    background: linear-gradient(to bottom, #7a7aff, #3c3c50); /* Slight color change on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+
+.tab.active {
+    background-color: #a0a0ff; /* For active state */
+}
+
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d4d4d5;
+    color: #fff;
+    font-size: 16px;
+}
+
+.forgot-password {
+    text-align: right;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.forgot-password a {
+    color: #a0a0ff;
+    text-decoration: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #965FEC;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #8787e0;
+}
+
+/* Modified social login section to lower it */
+.social-login {
+    margin-top: 40px; /* Increased margin to lower the section */
+}
+
+.social-login p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.social-login img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+   
+    transition: filter 0.3s;
+}
+social-login img:hover {
+    filter: brightness(1.2); /* Slight brightness effect on hover */
+}
+/* Added margin specifically for the text to lower it */
+.sign-in-options-text {
+    margin-top: 30px; /* Lower the text */
+    font-size: 14px;
+    color: #fff; /* Ensure the color matches the rest of the form */
+    text-align: center;
+}
+
+/* Lower the social login icons further */
+.social-login {
+    margin-top: 10px; /* Increased margin to add more space between text and icons */
+}
+.social-login img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 50%;  /* Make the images circular */
+    object-fit: cover;   /* Ensure the images cover the area properly */
+    transition: filter 0.3s;
+}
+
+.social-login img:hover {
+    filter: brightness(1.2); /* Slight brightness effect on hover */
+}
+
+
+
+
