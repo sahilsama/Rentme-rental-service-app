@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="order-summary">
+        <h1 class="title">Order summary</h1>
+        <p class="subtitle">Unlock a new level of your trip productivity.</p>
+
+        <div class="price-section">
+            <span class="price">$300</span>
+            <span class="discount">-20%</span>
+            <span class="price-period">/ day</span>
+        </div>
+
+        <div class="included-section">
+            <p>What's included</p>
+            <ul>
+                <li><i class="check-icon">&#10004;</i> Scooty helmet</li>
+                <li><i class="check-icon">&#10004;</i> Rider Gloves</li>
+                <li><i class="check-icon">&#10004;</i> 1 Activa 5g model name 2234</li>
+                <li><i class="check-icon">&#10004;</i> Tracking id</li>
+            </ul>
+        </div>
+
+        <div class="insurance">
+            <input type="checkbox" id="insurance-checkbox">
+            <label for="insurance-checkbox">Third party insurance + Rs15 / ride</label>
+        </div>
+
+        <button class="confirm-btn" onclick="confirmOrder()">Confirm now</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
