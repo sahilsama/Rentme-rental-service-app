@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #2c1338;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.order-summary {
+    background: rgba(35, 7, 65, 0.9);
+    border-radius: 15px;
+    padding: 40px; /* Increase padding for more space inside the box */
+    width: 400px;  /* Increase the width to make the box bigger */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    font-size: 24px;
+    color: #a290ff;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #cfcfcf;
+    margin-bottom: 20px;
+}
+
+.price-section {
+    font-size: 40px; /* Slightly increase font size for a larger box */
+    color: #fff;
+    margin-bottom: 20px; /* Increase margin to make the spacing more balanced */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    font-size: 36px;
+    color: #fff;
+}
+
+.discount {
+    background-color: #00cc5d;
+    color: #fff;
+    font-size: 14px;
+    padding: 2px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.price-period {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.included-section {
+    text-align: left;
+    margin: 30px 0;  /* More space between sections */
+    font-size: 18px;  /* Increase font size for easier readability */
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 15px; /* Increase margin for better spacing */
+}
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.check-icon {
+    color: #00cc5d;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.insurance {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #cfcfcf;
+}
+
+.insurance input {
+    margin-right: 10px;
+}
+
+.confirm-btn {
+    width: 100%;
+    background-color: #00cc5d;
+    color: #fff;
+    padding: 15px;  /* Increase button size for better usability */
+    font-size: 18px; /* Larger font size for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.confirm-btn:hover {
+    background-color: #00b14f;
+}
